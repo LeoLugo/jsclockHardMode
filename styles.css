@@ -1,0 +1,24 @@
+body {
+	box-sizing: border-box;
+	/*background-color: black;*/
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+#main {
+	width: 100%;
+	height: 1000px;
+	display: flex;
+}
+
+#box {
+	width: 60%;
+	height: 600px;
+	margin: auto;
+	margin-top: 100px;
+	color: white;
+	font-size: 180px;
+	text-align: center;
+	line-height: 600px;
+}
